@@ -19,3 +19,13 @@ print(c)
 #divide two operands
 d=x/y
 print(d)
+
+# '=' assignment operator 
+#let assume  I have x = 5 and i want to add it up
+
+f = 5
+f += 5
+print("additional operands", f)
+
+f /= 5
+print("division operands", f)
