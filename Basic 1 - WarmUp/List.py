@@ -39,3 +39,17 @@ print(numbers)
 
 numbers.insert(2,25)
 print(numbers)
+
+#Example 5
+#Remove the element
+numbers.remove(30)
+print(numbers)
+
+#Example 6
+#length of the list
+print(len(numbers))
+
+#Eample 7
+#maximum value inthe aRRAY
+
+print(max(numbers))
