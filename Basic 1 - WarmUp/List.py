@@ -22,3 +22,20 @@ print(language[3])
 
 language[3] = "tamil"
 print(language)
+
+#Example 2
+numbers = [10, 20, 30, 40, 50]
+print(numbers[0]) #10
+print(numbers[-1]) #50
+
+#Example 3
+#Add an Element in the list
+numbers.append(60)
+print(numbers)
+
+#Example 4
+#Insert an Element
+#Insert 25 in the index 2
+
+numbers.insert(2,25)
+print(numbers)
