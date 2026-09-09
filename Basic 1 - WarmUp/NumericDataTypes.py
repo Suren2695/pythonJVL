@@ -31,3 +31,11 @@ print("\nType Conversion:")
 print("float(age) =", float(age))
 
 #Complex 
+#complex number has two things ( real and imaginary ) 
+#Example : 5+3j - 5 is the real number and 3 is imaginary here
+
+c = 5+3j
+print(type(c)) #<class complex>
+print(c.real) #5.0
+print(c.imag) #3.0
+print(c) #5+3j
