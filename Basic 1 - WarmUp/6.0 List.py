@@ -53,3 +53,31 @@ print(len(numbers))
 #maximum value inthe aRRAY
 
 print(max(numbers))
+
+#Example 8
+#Reverse the number
+print(reversed(numbers))
+
+#Example 9
+#Sort a list 
+numbers = [50, 10, 30, 20, 40, 2, 4, 2, 6,99, 2, 0, 3, 1, 3, 5, 4]
+numbers.sort()
+print(numbers)
+
+#Example 10
+# Count Occurrences - Count how many times 2 appears in the list.
+occ = numbers.count(2)
+print(occ)
+
+#Example 11
+#Remove duplicate values from a list.
+
+uniq_num = list(set(numbers))
+print(uniq_num)
+print(set(numbers))
+
+#Example 12
+#Find even numbers
+numb = [1, 2, 3, 4, 5, 6]
+evens = [num for num in numb if num % 2 == 0]
+print(evens)
