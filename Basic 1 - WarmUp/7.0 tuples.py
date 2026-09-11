@@ -22,4 +22,5 @@ print(number.index(20))
 
 #Fidn the index of the element of 20 from the reverse order 
 print(len(number)-1-number[::-1].index(20))
+#12-1-0 = 11, So index of 11 is 20 which is from the last
 #first reversing the tuple and then minusing that with length -1
