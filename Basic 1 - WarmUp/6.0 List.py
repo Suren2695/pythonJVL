@@ -1,5 +1,11 @@
 #list
 
+'''
+   - An ordered collection of items enclosed in square brackets [ ].
+   - Mutable, allowing you to modify, add, or remove elements.
+   - Example: `my_list = [1, 2, 3, 4, 5]`
+'''
+
 #empty list 
 my_list = []
 

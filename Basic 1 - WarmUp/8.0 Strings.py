@@ -24,5 +24,3 @@ print('str1 :',str1[0:3]) #jvl
 print('str1 :', str1[3:7]) # code
 print(str1[3:]) # code
 print('str1:', str1[3:-1]) #cod
-
-

@@ -1,5 +1,9 @@
 #Tuples - only difference in tuples and list is, In tuples we cannot change the values in the tuples.
-
+'''
+- Similar to a list but enclosed in parentheses ( ) or without any enclosing symbols.
+   - Immutable, so its elements cannot be changed after creation.
+   - Example: `my_tuple = (1, 2, 3)`
+'''
 language = ("French", "polish", "Czech", "German")
 
 
