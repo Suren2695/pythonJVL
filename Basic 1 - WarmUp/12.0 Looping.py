@@ -22,3 +22,12 @@ while i <= n:
     i = i+1
     print('value is :', sum)
 
+
+#FOR loop
+
+    numb = [2,3,6,4,7,8]
+    sum = 0
+    for val in numb:
+        sum = sum + val
+        print('The sum is : ',sum )
+
