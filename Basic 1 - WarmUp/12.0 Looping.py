@@ -45,3 +45,18 @@ for val in "string":
         continue
     print(val) #s,t,i,n,g
 print('The end')
+
+#EXAMPLE 1 - billing claculator 
+
+price =  1200
+tax = price * 0.18
+print(tax)
+total = price + tax
+
+print(total)
+
+if total > 1000:
+    total_Discount = total * 0.10
+    print( 'Total discount is : ', total_Discount)
+    total -= total_Discount
+print(total)
