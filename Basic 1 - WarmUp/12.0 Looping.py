@@ -31,3 +31,17 @@ while i <= n:
         sum = sum + val
         print('The sum is : ',sum )
 
+#BREAK
+
+for val in "String":
+    if val == 'r':
+        break
+    print(val) #s,t
+print("The end ...")   
+
+#Continue :
+for val in "string":
+    if val == 'r':
+        continue
+    print(val) #s,t,i,n,g
+print('The end')
