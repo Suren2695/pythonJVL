@@ -27,3 +27,13 @@ def test(a,b):
     return sum
 print(test(8,9))
 
+#Rrecurssive function
+#factorial of a number
+def rec_fun(x):
+    if x==1:
+        return 1
+    else:
+        return(x*rec_fun(x-1))
+
+num = 6
+print("The factorial number of ", num , 'is', rec_fun(num))
