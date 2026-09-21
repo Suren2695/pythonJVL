@@ -19,5 +19,11 @@ def return_sum(a,b):
     return a+b
 result = return_sum(3,5)
 print(result)
-    
+
+#assign value - a,b to a variable.
+
+def test(a,b):
+    sum = a+b
+    return sum
+print(test(8,9))
 
