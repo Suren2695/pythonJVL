@@ -34,3 +34,24 @@ print(max(10,34)) #34
 #Example 6 - get the length of the name 
 name  = lambda name : len(name)
 print(name("Surender"))
+
+#Example 7 - Lambda with the list 
+numbers =  [1, 2, 3, 4, 5, 6, 7, 8, 9]
+results = list(map(lambda x : x**2, numbers))
+print(results)
+# map() applies the lambda to every item.
+
+#Example 8 - lambda with filter the even numbers
+fil = list(filter(lambda x: x%2 == 0, numbers))
+print(fil)
+# filter() keeps only the numbers where the answer is True
+
+#Example 9 - Sort using lambda
+
+students = [
+    ("John", 80),
+    ("David", 95),
+    ("Sam", 70)
+]
+students.sort(key = lambda x:x[1])
+print(students)
