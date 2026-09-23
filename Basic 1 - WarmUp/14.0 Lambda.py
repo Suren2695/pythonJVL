@@ -18,7 +18,7 @@ print(sqr(5))
 sqr1 =  lambda x: x**3
 print(sqr1(2))
 
-#Example 3 - Check whether the number is positive or not 
+#Exam9ple 3 - Check whether the number is positive or not 
 positive = lambda x: x>0
 print(positive(10)) #true
 print(positive(-1)) #false
@@ -27,6 +27,10 @@ print(positive(-1)) #false
 input =  lambda x,y : x + y
 print(input(3,2))
 
-#Example 5 - Fins the bigger number
+#Example 5 - Finds the bigger number
 max = lambda x,y : x if x>y else y 
-print(max(10,34)) //34
+print(max(10,34)) #34
+
+#Example 6 - get the length of the name 
+name  = lambda name : len(name)
+print(name("Surender"))
