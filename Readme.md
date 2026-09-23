@@ -36,3 +36,26 @@ References :
   - Tuples: Enclosed in ( ) or without enclosing symbols.
   - Dictionaries: Enclosed in { } with key-value pairs.
   - Sets: Enclosed in { } with unique elements.
+
+### smartdesk-ai-chatbot ###
+# Project idea #
+
+"SmartDesk AI – A Python-based AI Assistant Chatbot"
+
+A chatbot that can:
+
+💬 Chat with the user
+🧠 Remember conversation context
+📚 Answer questions from a small knowledge base
+🔍 Search/retrieve information from your own documents
+🧮 Perform simple calculations
+🐍 Demonstrate Python concepts
+📝 Maintain conversation history
+🌐 Expose an API using FastAPI
+🖥️ Have a simple UI using Streamlit
+🤖 Later integrate an LLM/API
+
+This gives you a project that starts very simple but can evolve into an impressive AI/GenAI project.
+
+# PHASE 1 #
+I have done the terminal based chatbot which is very simple 
