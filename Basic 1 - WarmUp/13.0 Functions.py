@@ -37,3 +37,20 @@ def rec_fun(x):
 
 num = 6
 print("The factorial number of ", num , 'is', rec_fun(num))
+
+#What are *args ?
+#Allows a function to accept multiple positional arguments
+
+def add(*args):
+    return sum(args)
+print(add(10, 20, 30))
+#output is 60 
+
+
+#What is **kwargs ?
+#Allows multiple keyword arguments
+
+def usr_details(**kwargs):
+    print(kwargs) 
+usr_details(name = 'John', age = 31)
+
