@@ -3,8 +3,8 @@
 So starting of from 
 # BASICS 1 - Warmup Folder 
 References :
-# 1. JVL Code ( Tamil ) - https://www.jvlcode.com/
-# 2. AI Coach John - https://www.youtube.com/watch?v=QGAuolgCTHE&t=
+ 1. JVL Code ( Tamil ) - https://www.jvlcode.com/
+ 2. AI Coach John - https://www.youtube.com/watch?v=QGAuolgCTHE&t=
 
 ## JVL Code 
 1. Basics 1 - Warmup Folder 
