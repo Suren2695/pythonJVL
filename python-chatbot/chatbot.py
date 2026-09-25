@@ -5,8 +5,10 @@ def get_response(message):
 
     if "hello" in message or "hi" in message:
         return message
+    
     elif "how are you" in message:
         return "I'm fine"
+    
     elif "what is your age" in message:
         return "I am bot 1.1V."
 
@@ -25,7 +27,7 @@ def get_response(message):
         return "Sorry, I don't understand that yet."
 
 print("=================================")
-print("       🤖 Python Chatbot")
+print("       Python Chatbot")
 print("=================================")
 
 name = input("What is your name? ")
