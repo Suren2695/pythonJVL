@@ -7,3 +7,6 @@
 4. Automatic waiting mechanism 
 5. Inbuilt  Logging and screenshots
 
+# Why Python ?
+1. More popular, Less Competition - Python ha a larger market share than Java &Hjavascript but with less competition of resources
+2. Simple syntax for Faster Ramp-up -  python's simple, readable syntax allows beginners to quickly become productive, lowering the learnign curve and make it easier for teams to adopt 
