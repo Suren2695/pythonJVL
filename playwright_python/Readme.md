@@ -21,8 +21,8 @@ pip is a package installer for python - you can use pip install packages from th
 
 2. INSTALL Command for Playwright : python -m pip install playwright
 
-OR try  this  below 
-
+OR 
+try  this  below 
 1. python -m pip install playwright pytest pytest-playwright - this will install Playwright, pytest, pytest-playwright.
 AND to check the version -  
 2. python -m playwright --version & python -m pytest --version
