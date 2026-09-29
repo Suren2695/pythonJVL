@@ -58,4 +58,53 @@ A chatbot that can:
 This gives you a project that starts very simple but can evolve into an impressive AI/GenAI project.
 
 # PHASE 1 #
-I have done the terminal based chatbot which is very simple 
+I have done the terminal based chatbot which is very simple.
+
+### Python Playwright Automation ###
+
+# What is a virtual environment?
+
+A virtual environment (venv) is a separate Python environment created specifically for one project.
+PythonJVL/
+│
+├── Python_Basics_1/
+│   ├── .venv/
+│   ├── functions.py
+│   └── loops.py
+│
+├── Python_Chatbot/
+│   ├── .venv/
+│   ├── chatbot.py
+│   └── README.md
+│
+└── Playwright_Python/
+    ├── .venv/
+    ├── tests/
+    ├── pages/
+    ├── config.py
+    └── conftest.py
+
+Each project can have its own packages and package versions.
+Mainly to avoid the conflicts.
+
+# When you create:
+python -m venv .venv
+
+PYTHON Creates:
+your-project/
+│
+└── .venv/
+    ├── Scripts/
+    ├── Lib/
+    └── ...
+
+Now this project has its own package environment.
+
+When you activate it:
+.venv\Scripts\Activate.ps1
+
+your terminal changes to something like:
+(.venv) PS C:\Users\Surender\playwright-project>
+
+That (.venv) tells you:
+I'm currently working inside this project's Python environment.
