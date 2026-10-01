@@ -22,7 +22,7 @@ print(values)
 
 #Demo 4 - if else looping
 
-greet = input("What is your wish ? ")
+greet = "What is your wish ? "
 
 if greet == "morning":
     print("condition matched")
@@ -30,3 +30,21 @@ else :
     print("end the greetings")
 
 print("If else condition code is completed")
+
+#Demo 5 - Dictionary 
+dic = {"a":2, 4:"bcd", "c":"Hello World "}
+
+print(dic[4])
+print(dic["c"])
+
+dict = {}
+dict["firstname"] = "Suren"
+dict["lastname"] = "Raj"
+dict["gender"] = "Male"
+
+print(dict)
+
+#loops 
+obj =[2,3,4,5,7,8]
+for i in obj:
+    print(i*2)
