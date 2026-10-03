@@ -108,3 +108,26 @@ your terminal changes to something like:
 
 That (.venv) tells you:
 I'm currently working inside this project's Python environment.
+
+### Playwright with typescript 
+
+playwright version - 1.63.0
+node version - 24.11.1
+npm version - 11.7.0
+
+1. first make a directory -  mkdir playwright_Typescript
+2. Go to the folder  - cd playwright_Typescript
+3. enter "Code ." to open vscode from the folder
+4. now type "npm init -y" to create a packet.json file
+5. Now install playwright - npm init playwright@latest
+6. After Installation - 
+
+playwright-typescript/
+│
+├── tests/
+│   └── example.spec.ts
+│
+├── playwright.config.ts
+├── package.json
+├── package-lock.json
+└── tsconfig.json
