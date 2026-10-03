@@ -60,9 +60,9 @@ This gives you a project that starts very simple but can evolve into an impressi
 # PHASE 1 #
 I have done the terminal based chatbot which is very simple.
 
-### Python Playwright Automation ###
+# Python Playwright Automation #
 
-# What is a virtual environment?
+### What is a virtual environment?
 
 A virtual environment (venv) is a separate Python environment created specifically for one project.
 PythonJVL/
@@ -87,7 +87,7 @@ PythonJVL/
 Each project can have its own packages and package versions.
 Mainly to avoid the conflicts.
 
-# When you create:
+### When you create:
 python -m venv .venv
 
 PYTHON Creates:
@@ -109,7 +109,7 @@ your terminal changes to something like:
 That (.venv) tells you:
 I'm currently working inside this project's Python environment.
 
-### Playwright with typescript 
+# Playwright with typescript 
 
 playwright version - 1.63.0
 node version - 24.11.1
