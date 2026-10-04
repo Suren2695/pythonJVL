@@ -2,14 +2,16 @@ import {devices, defineConfig} from "@playwright/test"
 
 export default defineConfig({
 
-  testDir: "./tests",
+  testDir: "./tests", //this will triggers the files inside the tests folder to run
 
   use: {
-    baseURL : "https://example.com",
-    headless: true
+    baseURL : "https://example.com", //base url - the url u need to mention
+    headless: true // headless mode 
   },
 
   projects:[
+
+    // this will trigger the chromium browser, if you want to add for firefox and explorer and even mobile devices.
     {
       name : "chromium",
       use: {...devices["Desktop Chrome"]}
