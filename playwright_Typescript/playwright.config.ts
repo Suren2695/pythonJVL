@@ -12,8 +12,9 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
-    baseURL : "https://example.com", //base url - the url u need to mention
-    headless: true // headless mode 
+    //baseURL : "https://example.com", //base url - the url u need to mention,
+    browserName: "webkit",
+    headless: false // headless mode 
   },
 
   projects:[

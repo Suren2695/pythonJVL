@@ -131,3 +131,13 @@ playwright-typescript/
 ├── package.json
 ├── package-lock.json
 └── tsconfig.json
+
+1. Identify with the locator based on ID 
+css -> tagname#id (or) #id
+2. If class attribute is present 
+css -> tagname.class (or) .class
+3. write css based on any attribute
+css -> [attribute='value']
+4. write css with travesing from parent to child
+css -> parenttagname >> childtagname 
+5. If needs to write the locator based on text
