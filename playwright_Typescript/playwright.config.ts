@@ -1,8 +1,15 @@
-import {devices, defineConfig} from "@playwright/test"
+import {devices, defineConfig} from "playwright/test"
 
 export default defineConfig({
 
   testDir: "./tests", //this will triggers the files inside the tests folder to run
+  //maximum time one test cases run for. 
+  timeout: 30 * 1000,
+  expect: {
+    timeout: 5000
+  } ,
+
+  reporter: 'html',
 
   use: {
     baseURL : "https://example.com", //base url - the url u need to mention
