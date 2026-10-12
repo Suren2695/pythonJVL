@@ -25,6 +25,7 @@ test("Playwright page test", async({page})=>{
 
     const aboutUsMenu = page.locator('.menu-item.menu-item-sub').filter({ hasText: /^ABOUT US/ });
     await expect(aboutUsMenu).toBeVisible({ timeout: 15000 });
+    //await expect(aboutUsMenu).toBeVisible();
     await aboutUsMenu.hover();
 
     const introductionLink = page.getByRole('link', { name: /Introduction/i });
