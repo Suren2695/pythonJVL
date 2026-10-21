@@ -9,13 +9,15 @@ memory = {}
 #getting response
 
 def get_response(message):
-    if "Hello" in message or "hi" in message:
+    message = message.lower()
+
+    if "hello" in message or "hi" in message:
         return message
-    elif "How are you" in message:
-        return "I'm doing great !"
-    elif "your name" in message:
-        return "I'm PythonBot "
-    elif "Python" in message:
+    elif "how are you" in message:
+        return "I'm doing great!"
+    elif "what is your name" in message or "your name" in message:
+        return "I'm PythonBot."
+    elif "python" in message:
         return "Python is a high-level programming language."
     elif "thank" in message:
         return "You're Welcome !!"
@@ -40,3 +42,17 @@ def save_memory(message):
         favorite = message_lower.replace("my favorite colour is", "").strip()
         memory["favorite"] = favorite
         return f"That's great, i remember your favorite colour is {favorite}"
+
+
+print("======= Python Chatbot =======")
+print("Tell me about yourself, or type 'bye' to exit.\n")
+
+while True:
+    message = input("You: ")
+    response = save_memory(message)
+    if response is None:
+        response = get_response(message)
+    print("Bot:", response)
+
+    if "bye" in message.lower():
+        break
