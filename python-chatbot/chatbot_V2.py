@@ -3,9 +3,7 @@
 #   Python Chatbot -  version 2
 #   Conversational Memory
 #=================================================
-
 memory = {}
-
 #getting response
 
 def get_response(message):
@@ -53,6 +51,5 @@ while True:
     if response is None:
         response = get_response(message)
     print("Bot:", response)
-
     if "bye" in message.lower():
         break
