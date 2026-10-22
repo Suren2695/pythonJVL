@@ -7,3 +7,8 @@ from pathlib import Path
 #=========================
 
 MEMORY_FILE = Path(__file__).with_name("memory.json")
+
+#-----------
+#Load Memory
+#-----------
+
