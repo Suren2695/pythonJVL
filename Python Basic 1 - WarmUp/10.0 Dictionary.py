@@ -37,4 +37,3 @@ dicti["firstname"] = "Rahul"
 dicti["lastname"] = "Shetty"
 dicti["gender"] = "male"
 print(dicti)
-

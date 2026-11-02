@@ -60,3 +60,8 @@ if total > 1000:
     print( 'Total discount is : ', total_Discount)
     total -= total_Discount
 print(total)
+
+#Example 2:
+obj = [2,3,5,7,9]
+for i in obj:
+    print(i)
