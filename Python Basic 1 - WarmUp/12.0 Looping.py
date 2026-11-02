@@ -68,3 +68,9 @@ for i in obj:
 
 for i in obj:
     print(i*2)
+
+#sum of first natural number 1+2+3+4+5 = 15
+suma = 0
+for j in range(1,6):  #range(i,j) -> i  to j-1
+    suma = suma + j
+print(suma)
