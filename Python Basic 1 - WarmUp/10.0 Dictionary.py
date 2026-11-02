@@ -31,3 +31,10 @@ print(person) #{'name': 'jackson', 'age': 31}
 
 #Delete the entire dictionary
 #del person -  this will delete the dictionary 
+
+dicti = {}
+dicti["firstname"] = "Rahul"
+dicti["lastname"] = "Shetty"
+dicti["gender"] = "male"
+print(dicti)
+
