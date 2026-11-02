@@ -74,3 +74,10 @@ suma = 0
 for j in range(1,6):  #range(i,j) -> i  to j-1
     suma = suma + j
 print(suma)
+print("********")
+
+#If i want to incremental by 2 for each iteration 
+for j in range(1,10,2):
+    print(j)
+    suma = suma + j
+print(suma)
