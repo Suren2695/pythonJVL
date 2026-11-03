@@ -5,6 +5,8 @@ def get_response(message):
 
     if "hello" in message or "hi" in message:
         return message
+    elif "what can you do?" in message:
+        return "I can respond to simple messages."
     elif "how are you" in message:
         return "I'm fine"
     elif "what is your age" in message:
