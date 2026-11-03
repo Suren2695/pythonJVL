@@ -81,3 +81,4 @@ for j in range(1,10,2):
     print(j)
     suma = suma + j
 print(suma)
+ # `suma` was already 15; this loop adds 1 + 3 + 5 + 7 + 9 = 25, so it becomes 40.
