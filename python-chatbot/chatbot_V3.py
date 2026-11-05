@@ -19,3 +19,14 @@ def save_memory_to_file():
 memory["name"] = "Surender"
 save_memory_to_file()
 print("Memory saved successfully")
+
+def load_memory():
+    with open("memory.json","r") as file:
+        memory = json.load(file)
+    return memory
+
+#Load exisiting memory
+memory = load_memory()
+
+print("loaded memory:", memory)
+print("My name is:", memory["name"])
